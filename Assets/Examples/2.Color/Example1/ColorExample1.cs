@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class ColorExample1 : MonoBehaviour
 {
     public GameObject objectToPerform;

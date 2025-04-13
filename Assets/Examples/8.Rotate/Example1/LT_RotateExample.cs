@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlphExample1 : MonoBehaviour
+public class LT_RotateExample : MonoBehaviour
 {
+    public GameObject objectToPerform;
+    public Vector3 axis;
     public float time;
-    public float alphaValue;
     private void OnEnable()
     {
-        LeanTween.alpha(gameObject, alphaValue, time);
-
+        
     }
-
-
 }
